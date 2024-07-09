@@ -1,0 +1,119 @@
+.open-sans-normal{
+    font-family: "Open Sans",sans-serif;
+    font-optical-sizing: auto;
+    font-style:normal;
+    font-variation-settings: "wdth" 100;
+}
+
+
+
+/* shared style */
+.secondary-bg{
+    background-color: aliceblue;
+ }
+ .text-primary{
+    color:rgb(231, 102, 9)
+ }
+.dark-2{
+    color: rgba(11, 0, 0, 0.735);
+}
+/* Button Style */
+.btn-primary{
+    margin-right: 90px;
+    background-color: rgba(239, 237, 235, 0.872);
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(24, 24, 23);
+    padding: 8px 20px;
+    border-radius: 6px;
+}
+.btn-background{
+    background-color: black;
+    font-weight: bold;
+    font-size: 20px;
+    color: #eeeeec;
+    padding: 12px 23px;
+    border-radius: 10px;
+}
+.btn-simple{
+    background-color: #eeeeec;
+    font-size: large;
+    padding: 9px 26px;
+}
+
+
+/* Nav Styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 20px;
+}
+.nav-title{
+    margin-left: 80px;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+/* Banner section style starts here */
+.banner-container{
+    width: 1350px;
+    min-height: 600px;
+    background-image: url("../assets/Hero-bg.png");
+    background-position: center;
+    background-size: cover;  
+    
+}
+.banner-content {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ height: 600px;
+ align-items: center;
+}
+.banner-title{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.banner-description{
+    text-align: center;
+    color: rgb(36, 37, 39);
+    font-weight: 700;
+}
+
+/* shared style */
+.background-clour{
+    background-color: aliceblue;
+}
+/* body part */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+main section{
+    margin-top: 70px;
+    margin-bottom: 130px;
+}
+/* about */
+.about{
+    border-radius:10px;
+    padding: 130px 150px;
+    text-align: center;
+   
+}
+.about-title{
+    
+    display:flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+/* section */
+.section-description{
+    font-size: 18px;
+    color: rgb(75, 74, 73);
+    padding: 50px 50px 50px 50px;
+}
