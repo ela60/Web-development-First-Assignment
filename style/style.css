@@ -132,3 +132,16 @@ main{
     padding: 50px 50px 50px 50px;
     justify-content: space-between;
 }
+.p-text{
+    text-align: center;
+}
+/* video-edit */
+.video-edit-margin{
+    margin-left: 160px;
+    margin-right: 120px;
+    padding: 30px;
+    border-radius: 20px;
+    border: 2 solid;
+    background-color: rgb(232, 234, 236);
+
+}
