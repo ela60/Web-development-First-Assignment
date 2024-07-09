@@ -98,7 +98,7 @@ main section{
     margin-top: 70px;
     margin-left: 5px;
     border-radius:10px;
-    padding: 100px 110px;
+    padding: 24px 10px;
      
    
 }
@@ -134,6 +134,7 @@ main{
 .p-text{
     text-align: center;
 }
+
 /* video-edit */
 .video-edit-margin{
     margin-left: 160px;
@@ -173,26 +174,30 @@ main{
   .skill3-bg{
     background-color: rgb(240, 240, 196);
   }
-  /* footer style */
-  footer{
+  /* Section-last style */
+  .section-last{
   width: 1000px;
-  min-height: 250px;
-  margin-left: 150px;
+  min-height: 200px;
+  margin-left: 70px;
+  padding: 70px 10px;
+  font-weight: 900;
+  background-color: rgb(0, 0, 0,0.5);
   background-image: url("../assets/handshake.jpg");
   text-align: center;
   color: white;
   background-position: center;
   background-size: cover; 
   border-radius: 8px;
+  background-blend-mode: overlay;
   }
-  .footer-p{
+  .section4-p{
     
     color: #eeeeec;
   }
   textarea{
     border-radius: 8px;
   }
-  .footer-btn{
+  .section4-btn{
     margin-right: 50px;
     background-color: #efedeb;
     font-weight: bold;
@@ -200,8 +205,20 @@ main{
     padding: 8px 20px;
     border-radius: 6px;
   }
-  .footer-display{
+  .section-last-display{
     display: inline;
   }
    
-  
+  /* footer style */
+  footer{
+    display: flex;
+    
+    
+  }
+  .footer-part{
+    margin-left: 350px;
+    justify-content: space-between;
+  }
+  .footer-h2{
+    margin-left: 130px;
+  }
